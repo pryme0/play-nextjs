@@ -28,14 +28,6 @@ const Contact = () => {
                       <path d="M14.5 8.58594C11.2734 8.58594 8.59375 11.2109 8.59375 14.4922C8.59375 17.7188 11.2187 20.3984 14.5 20.3984C17.7812 20.3984 20.4062 17.7734 20.4062 14.4922C20.4062 11.2109 17.7266 8.58594 14.5 8.58594ZM14.5 18.4297C12.3125 18.4297 10.5078 16.625 10.5078 14.4375C10.5078 12.25 12.3125 10.4453 14.5 10.4453C16.6875 10.4453 18.4922 12.25 18.4922 14.4375C18.4922 16.625 16.6875 18.4297 14.5 18.4297Z" />
                     </svg>
                   </div>
-                  <div>
-                    <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
-                      Our Location
-                    </h3>
-                    <p className="text-base text-body-color dark:text-dark-6">
-                      401 Broadway, 24th Floor, Orchard Cloud View, London
-                    </p>
-                  </div>
                 </div>
                 <div className="mb-8 flex w-[330px] max-w-full">
                   <div className="mr-6 text-[32px] text-primary">

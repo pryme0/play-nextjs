@@ -93,7 +93,7 @@ const Header = () => {
                     <Image
                       src={`${
                         sticky
-                          ? "/images/logo/logo.svg"
+                          ? "/images/logo/paymais-logo.svg"
                           : "/images/logo/paymais-logo.svg"
                       }`}
                       alt="logo"
