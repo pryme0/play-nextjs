@@ -15,9 +15,9 @@ const Contact = () => {
                   Let&#39;s talk about your problem.
                 </h2>
               </div>
-              <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
-                <div className="mb-8 flex w-[330px] max-w-full"></div>
-                <div className="mb-8 flex w-[330px] max-w-full">
+              <div className="mb-12 flex flex-wrap justify-start lg:mb-0">
+                <div className="mb-8 flex w-[0px] max-w-full"></div>
+                <div className="mb-8 flex w-[0px] max-w-full">
                   <div>
                     <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
                       How Can We Help?
