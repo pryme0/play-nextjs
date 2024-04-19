@@ -64,18 +64,28 @@ const Header = () => {
                 {pathUrl !== "/" ? (
                   <>
                     <Image
-                      src={`/images/logo/logo.svg`}
+                      src={`/images/logo/paymais-logo.svg`}
                       alt="logo"
                       width={240}
                       height={30}
                       className="header-logo w-full dark:hidden"
+                      style={{
+                        height: "50px",
+                        width: "50px",
+                        borderRadius: "50%",
+                      }}
                     />
                     <Image
-                      src={`/images/logo/logo-white.svg`}
+                      src={`/images/logo/paymais-logo.svg`}
                       alt="logo"
                       width={240}
                       height={30}
                       className="header-logo hidden w-full dark:block"
+                      style={{
+                        height: "50px",
+                        width: "50px",
+                        borderRadius: "50%",
+                      }}
                     />
                   </>
                 ) : (
@@ -84,19 +94,29 @@ const Header = () => {
                       src={`${
                         sticky
                           ? "/images/logo/logo.svg"
-                          : "/images/logo/logo-white.svg"
+                          : "/images/logo/paymais-logo.svg"
                       }`}
                       alt="logo"
-                      width={140}
-                      height={30}
+                      width={50}
+                      height={50}
                       className="header-logo w-full dark:hidden"
+                      style={{
+                        height: "80px",
+                        width: "80px",
+                        borderRadius: "50%",
+                      }}
                     />
                     <Image
-                      src={"/images/logo/logo-white.svg"}
+                      src={"/images/logo/paymais-logo.svg"}
                       alt="logo"
-                      width={140}
-                      height={30}
+                      width={50}
+                      height={50}
                       className="header-logo hidden w-full dark:block"
+                      style={{
+                        height: "50px",
+                        width: "50px",
+                        borderRadius: "50%",
+                      }}
                     />
                   </>
                 )}
@@ -285,73 +305,6 @@ const Header = () => {
                     </svg>
                   </span>
                 </button>
-
-                {session?.user ? (
-                  <>
-                    <p
-                      className={`loginBtn px-7 py-3 text-base font-medium ${
-                        !sticky && pathUrl === "/" ? "text-white" : "text-dark"
-                      }`}
-                    >
-                      {session?.user?.name}
-                    </p>
-                    {pathUrl !== "/" || sticky ? (
-                      <button
-                        onClick={() => signOut()}
-                        className="signUpBtn rounded-lg bg-primary bg-opacity-100 px-6 py-3 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-20 hover:text-dark"
-                      >
-                        Sign Out
-                      </button>
-                    ) : (
-                      <button
-                        onClick={() => signOut()}
-                        className="signUpBtn rounded-lg bg-white bg-opacity-20 px-6 py-3 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
-                      >
-                        Sign Out
-                      </button>
-                    )}
-                  </>
-                ) : (
-                  <>
-                    {pathUrl !== "/" ? (
-                      <>
-                        <Link
-                          href="/signin"
-                          className="px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white"
-                        >
-                          Sign In
-                        </Link>
-                        <Link
-                          href="/signup"
-                          className="rounded-lg bg-primary px-6 py-3 text-base font-medium text-white duration-300 ease-in-out hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
-                        >
-                          Sign Up
-                        </Link>
-                      </>
-                    ) : (
-                      <>
-                        <Link
-                          href="/signin"
-                          className={`px-7 py-3 text-base font-medium hover:opacity-70 ${
-                            sticky ? "text-dark dark:text-white" : "text-white"
-                          }`}
-                        >
-                          Sign In
-                        </Link>
-                        <Link
-                          href="/signup"
-                          className={`rounded-lg px-6 py-3 text-base font-medium text-white duration-300 ease-in-out ${
-                            sticky
-                              ? "bg-primary hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
-                              : "bg-white/10 hover:bg-white/20"
-                          }`}
-                        >
-                          Sign Up
-                        </Link>
-                      </>
-                    )}
-                  </>
-                )}
               </div>
             </div>
           </div>

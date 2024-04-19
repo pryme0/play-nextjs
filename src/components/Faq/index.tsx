@@ -6,8 +6,7 @@ const Faq = () => {
     <section className="relative z-20 overflow-hidden bg-white pb-8 pt-20 dark:bg-dark lg:pb-[50px] lg:pt-[120px]">
       <div className="container">
         <SectionTitle
-          subtitle="FAQ"
-          title="Any Questions? Answered"
+          title="Our core offerings"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           width="640px"
           center
@@ -16,31 +15,26 @@ const Faq = () => {
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="How to use TailGrids?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Flexible Savings Options"
+              answer="We aim to provide clients with flexible ways to save, allowing them to contribute a fixed amount of their salary monthly with ease and convenience.
+2. Access to Funds: We are dedicated to ensuring that our clients have access to their funds as at when needed, providing them with financial flexibility and peace of mind."
             />
             <SingleFaq
-              question="How to download icons from LineIcons?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Low-Interest Loans"
+              answer="Through our platform, we strive to offer clients low-interest rate loans, enabling them to access credit responsibly and affordably.
+
+"
             />
             <SingleFaq
-              question="Is GrayGrids part of UIdeck?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question=" Access to Funds"
+              answer="We are dedicated to ensuring that our clients have access to their funds as at when needed, providing them with financial flexibility and peace of mind"
             />
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="Can I use this template for commercial project?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
-            <SingleFaq
-              question="Do you have plan to releasing Play Pro?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
-            <SingleFaq
-              question="Where and how to host this template?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Utility Bill Payments"
+              answer="In addition to savings and loans, we also offer the convenience of utility bill payments through our app, further enhancing the financial management experience for our clients."
             />
           </div>
         </div>

@@ -96,11 +96,16 @@ const ResetPassword = ({ token }: { token: string }) => {
                     className="dark:hidden"
                   />
                   <Image
-                    src="/images/logo/logo-white.svg"
+                    src="/images/logo/paymais-logo.svg"
                     alt="logo"
                     width={140}
                     height={30}
                     className="hidden dark:block"
+                    style={{
+                      height: "100px",
+                      width: "100px",
+                      borderRadius: "50%",
+                    }}
                   />
                 </Link>
               </div>
